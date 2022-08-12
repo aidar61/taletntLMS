@@ -1,6 +1,6 @@
-package utils;
+package UI.utils;
 
-import com.obtaincare.UI.dataProviders.ConfigReader;
+import UI.dataProviders.ConfigReader;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

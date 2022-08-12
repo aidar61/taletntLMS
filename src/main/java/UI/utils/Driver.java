@@ -1,6 +1,6 @@
-package utils;
+package UI.utils;
 
-import com.obtaincare.UI.dataProviders.ConfigReader;
+import UI.dataProviders.ConfigReader;
 import org.openqa.selenium.WebDriver;
 
 import java.net.MalformedURLException;
