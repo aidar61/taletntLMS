@@ -1,7 +1,7 @@
 package UI.testPage.addUserTestAidar;
 
-import UI.studentsMethods.aidar.AidarMethods;
+import UI.studentsMethods.aidar.Methods;
 
 public class BasePage {
-    AidarMethods methods = new AidarMethods();
+    Methods methods = new Methods();
 }
