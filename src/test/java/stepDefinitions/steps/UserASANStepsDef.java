@@ -15,8 +15,7 @@ public class UserASANStepsDef extends BaseStep {
     }
     @Then("Admin should see {string} header text")
     public void admin_should_see_header_text(String string) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+
     }
 
     @Given("admin into the system")

@@ -7,9 +7,9 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/test/java/featuresFiles",
-        glue = "stepDefs",
+        glue = "stepDefinitions",
         tags = "@Smoke",
-        dryRun = true,
+        dryRun = false,
         monochrome = true,
         publish = true,
         plugin = {
