@@ -1,5 +1,6 @@
-package API;
+package API.Users;
 
+import API.APIHelper;
 import UI.dataProviders.ConfigReader;
 import io.restassured.http.ContentType;
 import io.restassured.http.Method;
@@ -7,9 +8,11 @@ import io.restassured.path.json.JsonPath;
 import org.junit.jupiter.api.Test;
 
 import java.io.File;
-import java.io.Reader;
 
 public class Users {
+    File file = new File("src/main/resources/user.json");
+    JsonPath localJsonPath = new JsonPath(file);
+
     @Test
     public void getUser() {
         APIHelper.getUsersByID(1);
@@ -20,16 +23,21 @@ public class Users {
         APIHelper.request(ConfigReader.getProperty("users")
                 , ContentType.JSON
                 , ContentType.JSON
-                , Method.GET).body();
+                , Method.GET);
     }
 
     @Test
     public void createUser() {
-        File file = new File("src/main/resources/user.json");
-        JsonPath jsonPath = new JsonPath(file);
         APIHelper.requestWithBody(ConfigReader.getProperty("createUser")
-                , jsonPath.get()
+                , localJsonPath.get()
                 , ContentType.JSON, ContentType.JSON
                 , Method.POST);
+    }
+
+    @Test
+    public void deleteUser() {
+        JsonPath jsonPath = APIHelper.getJSON().jsonPath();
+        int id = jsonPath.getInt("[0].id");
+        System.out.println(id);
     }
 }

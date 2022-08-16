@@ -6,10 +6,6 @@ import io.restassured.http.ContentType;
 import io.restassured.http.Method;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
-import org.checkerframework.checker.units.qual.C;
-import org.junit.jupiter.api.Test;
-
-import java.util.Optional;
 
 public class APIHelper {
     private static RequestSpecification authURIPATH(String path) {
@@ -21,10 +17,10 @@ public class APIHelper {
         return requestSpecification;
     }
 
-
     public static Response request(String path, ContentType contentType, ContentType accept, Method method) {
         Response response = authURIPATH(path)
-                .contentType(contentType).accept(accept)
+                .contentType(contentType)
+                .accept(accept)
                 .request(method);
         System.out.println(response.getBody().asPrettyString() + "\n" + response.getStatusCode());
         return response;
@@ -51,7 +47,13 @@ public class APIHelper {
                 , ContentType.JSON, ContentType.JSON
                 , Method.GET);
     }
-    public static void deleteUser(int id) {
 
+    public static Response getJSON() {
+        return RestAssured.given()
+                .accept(ContentType.JSON)
+                .and()
+                .get(ConfigReader.getProperty("baseUri")
+                        + ConfigReader.getProperty("basePath")
+                        + ConfigReader.getProperty("users"));
     }
 }

@@ -6,3 +6,4 @@ Feature: User Page Test
   Scenario: User div test
     When Admin click on Users div button
     Then Admin should see "Home/Users" header text
+  Then Admin test API
