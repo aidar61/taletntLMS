@@ -1,11 +1,12 @@
-package stepDefinitions.steps;
+package UI.stepDefinitions.steps;
 
+import API.Users.Users;
 import UI.dataProviders.ConfigReader;
 import UI.utils.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import stepDefinitions.BaseStep;
+import UI.stepDefinitions.BaseStep;
 
 public class UserASANStepsDef extends BaseStep {
     @When("Admin click on Users div button")
@@ -23,5 +24,11 @@ public class UserASANStepsDef extends BaseStep {
     public void adminIntoTheSystem() {
         Driver.getDriver().get(ConfigReader.getProperty("environment"));
         loginPage.loginToSystem();
+    }
+
+    @Then("Admin test API")
+    public void adminTestAPI() {
+        Users users = new Users();
+        users.getAllUsers();
     }
 }
