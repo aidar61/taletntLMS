@@ -44,10 +44,14 @@ public class APIHelper {
                 .request(method);
         System.out.println(response.getBody().asPrettyString() + "\n" + response.getStatusCode());
     }
+
     public static void getUsersByID(int id) {
         APIHelper.requestWithQueryParams(ConfigReader.getProperty("users"),
                 "id", String.valueOf(id)
                 , ContentType.JSON, ContentType.JSON
                 , Method.GET);
+    }
+    public static void deleteUser(int id) {
+
     }
 }

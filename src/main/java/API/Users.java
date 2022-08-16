@@ -3,7 +3,11 @@ package API;
 import UI.dataProviders.ConfigReader;
 import io.restassured.http.ContentType;
 import io.restassured.http.Method;
+import io.restassured.path.json.JsonPath;
 import org.junit.jupiter.api.Test;
+
+import java.io.File;
+import java.io.Reader;
 
 public class Users {
     @Test
@@ -16,15 +20,16 @@ public class Users {
         APIHelper.request(ConfigReader.getProperty("users")
                 , ContentType.JSON
                 , ContentType.JSON
-                , Method.GET);
+                , Method.GET).body();
     }
 
     @Test
     public void createUser() {
+        File file = new File("src/main/resources/user.json");
+        JsonPath jsonPath = new JsonPath(file);
         APIHelper.requestWithBody(ConfigReader.getProperty("createUser")
-                , ConfigReader.getProperty("body")
+                , jsonPath.get()
                 , ContentType.JSON, ContentType.JSON
                 , Method.POST);
     }
-
 }
