@@ -13,6 +13,7 @@ public class UserASANStepsDef extends BaseStep {
         addUser.adminClickOnUserButton();
         throw new io.cucumber.java.PendingException();
     }
+
     @Then("Admin should see {string} header text")
     public void admin_should_see_header_text(String string) {
 
