@@ -40,4 +40,11 @@ public class Users {
         int id = jsonPath.getInt("[0].id");
         System.out.println(id);
     }
+
+    @Test
+    public void testJsonPath(){
+        String email = localJsonPath.getString("email");
+        System.out.println(email);
+    }
+
 }
