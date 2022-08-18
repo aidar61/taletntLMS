@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afca0f5e-9f39-4fa2-b24d-2a7fd063e934" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/UI/HelperRinat/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UI/HelperRinat/Helper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/UI/testPage/addGroupTestRinat/AddGroupPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UI/testPage/addGroupTestRinat/AddGroupPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UI/featuresFiles/addGroupRinat.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UI/featuresFiles/addGroupRinat.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UI/stepDefinitions/steps/StepTestGroupRinat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UI/stepDefinitions/steps/StepTestGroupRinat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/RunnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/RunnerClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="rinat1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -111,9 +109,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RunnerClass" />
+        <item itemvalue="JUnit.Users.testJsonPath" />
         <item itemvalue="Cucumber Java.Scenario: в разделе Group надо создать новую группу и обратно удалить" />
         <item itemvalue="Application.TestCar" />
-        <item itemvalue="JUnit.Users.testJsonPath" />
+        <item itemvalue="JUnit.RunnerClass" />
       </list>
     </recent_temporary>
   </component>

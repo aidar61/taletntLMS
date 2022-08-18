@@ -75,10 +75,10 @@ public class AddGroupPage extends Helper {
     @FindBy(xpath = "(//a[@class='btn btn-danger'])[1]")
     public WebElement deleteGroupButton;
 
-    @FindBy(id = "//a[@id='tl-confirm-submit']")
+    @FindBy(xpath = "//a[@id='tl-confirm-submit']")
     public WebElement deleteGroup;
 
-    @FindBy(xpath = "//a[contains(text(),'Home')]")
+    @FindBy(xpath = "//a[@title='Home']")
     public WebElement homeButton;
 
     public AddGroupPage loginInput(String login){
@@ -124,6 +124,7 @@ public class AddGroupPage extends Helper {
 
     public AddGroupPage amountPriceInput(String sum){
         sendKeys(inputPriceAmount,sum);
+        pause(200);
         return this;
     }
 
@@ -134,46 +135,55 @@ public class AddGroupPage extends Helper {
 
     public AddGroupPage clickAddGroupUserButton(){
         click(addGroupUsersButton1);
+        pause(200);
         return this;
     }
 
     public AddGroupPage clickCoursesButton(){
         click(coursesButton);
+        pause(200);
         return this;
     }
 
     public AddGroupPage clickGetAddGroupCoursesButton1(){
         click(getAddGroupCoursesButton1);
+        pause(200);
         return this;
 
     }
     public AddGroupPage clickGetAddGroupCoursesButton3(){
         click(getAddGroupCoursesButton3);
+        pause(1000);
         return this;
     }
 
     public AddGroupPage clickGetAddGroupCoursesButton4(){
         click(getAddGroupCoursesButton4);
+        pause(1000);
         return this;
     }
 
     public AddGroupPage clickGetAddGroupCoursesButton6(){
         click(getAddGroupCoursesButton6);
+        pause(1000);
         return this;
     }
 
     public AddGroupPage clickGroupsPageButton(){
         click(groupsPageButton);
+        pause(1000);
         return this;
     }
 
     public AddGroupPage clickSelectGroupButton(){
         click(selectGroupButton);
+        pause(1000);
         return this;
     }
 
     public AddGroupPage clickDeleteGroupButton(){
         click(deleteGroupButton);
+        pause(1000);
         return this;
     }
 
@@ -182,8 +192,8 @@ public class AddGroupPage extends Helper {
         return this;
     }
 
-    public AddGroupPage clickHomeButton(){
-        click(homeButton);
-        return this;
-    }
+//    public AddGroupPage clickHomeButton(){
+//        click(homeButton);
+//        return this;
+//    }
 }

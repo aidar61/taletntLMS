@@ -1,13 +1,7 @@
 package UI.HelperRinat;
 
 import UI.utils.Driver;
-import io.cucumber.java.cs.Ale;
-import org.apache.commons.lang.ObjectUtils;
-import org.checkerframework.checker.units.qual.K;
-import org.junit.jupiter.api.Timeout;
 import org.openqa.selenium.Alert;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -18,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 public class Helper {
 
     public Helper waitElementToBeClickable(WebElement element){
-        new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(10))
+        new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(20))
                 .until(ExpectedConditions.elementToBeClickable(element));
         return this;
     }
