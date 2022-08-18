@@ -1,8 +1,9 @@
+@goto
 Feature: Test GoTo NavBar menu
 
   Background: Login to the system
     Given admin logins into the system
-  @goto
+
   Scenario: GoTo navBar menu test
     When admin hovers on GoTo button from NavBar menu
     And admin clicks on Home button

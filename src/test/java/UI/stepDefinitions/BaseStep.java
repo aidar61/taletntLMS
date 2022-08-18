@@ -1,4 +1,4 @@
-package stepDefinitions;
+package UI.stepDefinitions;
 
 import UI.testPage.LoginPage;
 import UI.testPage.addUserTestAidar.AddUser;

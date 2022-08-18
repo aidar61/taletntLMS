@@ -5,11 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afca0f5e-9f39-4fa2-b24d-2a7fd063e934" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/API/APIHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/API/Branches/Branches.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/API/Categories/Categories.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/API/Courses/Courses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/API/Groups/Groups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/API/Systems/Systems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/API/Users/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DB/methods/DBMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/user.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BACK/fueaturesFiles/categories/APICATEGORIES1-3.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BACK/fueaturesFiles/courses/APICOURSES1-3.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BACK/fueaturesFiles/groups/APIGROUPS1-3.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BACK/fueaturesFiles/systems/APISYSTEM1-3.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BACK/fueaturesFiles/users/APIUSER1-3.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BACK/stepDefinitions/APISTEPS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/API/API.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/featuresFiles/GoToMenuNavBarYRYSBEK.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UI/featuresFiles/GoToMenuNavBarYRYSBEK.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/featuresFiles/UserASAN.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UI/featuresFiles/UserASAN.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/RunnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/RunnerClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/BaseStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/BaseStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/BaseStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UI/stepDefinitions/BaseStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/steps/GotoNavBarMenuYRYSBEKStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UI/stepDefinitions/steps/GotoNavBarMenuYRYSBEKStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/steps/UserASANStepsDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UI/stepDefinitions/steps/UserASANStepsDef.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +59,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager" selected="JUnit.RunnerClass">
     <configuration name="PracticeClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
