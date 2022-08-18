@@ -41,9 +41,11 @@ public class UsersPOJO extends MockDataGenerator {
         return requestWithQueryParams(ConfigReader.getProperty("users"), value, key,
                 ContentType.JSON, ContentType.JSON, Method.GET);
     }
+
     public String getJSONUsers() {
         return APIHelper.getJSON(URI.USERS.endpoints, Method.GET);
     }
+
     public UsersPOJO[] getObjectsOfUsers() {
         try {
             return SDConverter.deserialize(getJSONUsers(), UsersPOJO[].class);
@@ -82,14 +84,18 @@ public class UsersPOJO extends MockDataGenerator {
         }
         System.out.println("You can create max 5 users, storage of users is: " + getAmountOfUsers() + " users");
     }
-    public void deleteUser() throws JsonProcessingException {
-        UsersPOJO[] usersPOJOS = SDConverter.deserialize(APIHelper
-                .getJSON(URI.USERS.endpoints, Method.GET), UsersPOJO[].class);
-        APIHelper.preRequest(URI.DELETEUSER.endpoints
-                        , ContentType.JSON
-                        , ContentType.JSON)
-                .contentType(ConfigReader.getProperty("multipart"))
-                .multiPart("user_id", usersPOJOS[1].getId())
-                .request(Method.POST);
+
+    public void deleteUser(int numberOfUser) throws JsonProcessingException {
+        if (!(numberOfUser == 0)) {
+            UsersPOJO[] usersPOJOS = SDConverter.deserialize(APIHelper
+                    .getJSON(URI.USERS.endpoints, Method.GET), UsersPOJO[].class);
+            APIHelper.preRequest(URI.DELETEUSER.endpoints
+                            , ContentType.JSON
+                            , ContentType.JSON)
+                    .contentType(ConfigReader.getProperty("multipart"))
+                    .multiPart("user_id", usersPOJOS[numberOfUser].getId())
+                    .request(Method.POST);
+        }
+        System.out.println("Change variable \"number of user\" exist \"0\"");
     }
 }

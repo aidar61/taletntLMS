@@ -38,7 +38,7 @@ public class APIHelper {
 
     public static String getJSON(String endPoint, Method method) {
         return preRequest(endPoint, ContentType.JSON, ContentType.JSON)
-                .request(method).getBody().asPrettyString();
+                .request(method).asPrettyString();
     }
 
 }

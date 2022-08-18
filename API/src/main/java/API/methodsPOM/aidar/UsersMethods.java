@@ -35,6 +35,15 @@ public class UsersMethods extends MockDataGenerator {
     }
 
     @Test
+    public void deleteUser() {
+        try {
+            usersPOJO.deleteUser(1);
+        } catch (JsonProcessingException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    @Test
     public void createMaxUser() throws JsonProcessingException {
         String json = "";
         for (int i = 0; i < 4; i++) {
