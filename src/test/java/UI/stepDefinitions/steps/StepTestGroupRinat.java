@@ -1,13 +1,11 @@
 package UI.stepDefinitions.steps;
-
 import UI.BaseUITestRinat;
 import UI.dataProviders.ConfigReader;
 import UI.utils.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.Keys;
+
 
 public class StepTestGroupRinat extends BaseUITestRinat {
     @Given("пользователь находится на странице входа в систему")
@@ -115,9 +113,9 @@ public class StepTestGroupRinat extends BaseUITestRinat {
    addGroupPage.clickDeleteGroup();
        
     }
-    @Then("админ вернулся на главную страницу кликнув в левом верхнем углу Home")
-    public void админ_вернулся_на_главную_страницу_кликнув_в_левом_верхнем_углу_home() {
-       addGroupPage.clickHomeButton();
-       
-    }
+//    @Then("админ вернулся на главную страницу кликнув в левом верхнем углу Home")
+//    public void админ_вернулся_на_главную_страницу_кликнув_в_левом_верхнем_углу_home() {
+//       addGroupPage.clickHomeButton();
+//
+//    }
 }
