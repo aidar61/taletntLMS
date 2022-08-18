@@ -106,7 +106,6 @@ public class DBConnection {
         for (int i = 1; i <= num_of_columns; i++) {
             headers.add(metaData.getColumnName(i));
         }
-
         return headers;
     }
 }
