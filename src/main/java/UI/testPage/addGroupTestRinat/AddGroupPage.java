@@ -2,9 +2,13 @@ package UI.testPage.addGroupTestRinat;
 
 import UI.HelperRinat.Helper;
 import UI.utils.Driver;
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
+import java.security.Key;
 
 public class AddGroupPage extends Helper {
     public AddGroupPage() {
@@ -26,13 +30,13 @@ public class AddGroupPage extends Helper {
     @FindBy(xpath = "//input[@name='name']")
     public WebElement inputNameText;
 
-    @FindBy(name = "description")
+    @FindBy(xpath = "//textarea[@name='description']")
     public WebElement inputDescriptionText;
 
     @FindBy(id = "show-key")
     public WebElement groupKeyButton;
 
-    @FindBy(name = "group_key")
+    @FindBy(xpath = "//input[@name='group_key']")
     public WebElement inputGroupKeyText;
 
     @FindBy(xpath = "//a[text()='Price']")
@@ -65,7 +69,7 @@ public class AddGroupPage extends Helper {
     @FindBy(xpath = "//a[@title='Groups']")
     public WebElement groupsPageButton;
 
-    @FindBy(xpath = "//span[@title='test']")
+    @FindBy(xpath = "(//span[@title='Test'])[1]")
     public WebElement selectGroupButton;
 
     @FindBy(xpath = "(//a[@class='btn btn-danger'])[1]")
@@ -107,14 +111,10 @@ public class AddGroupPage extends Helper {
         return this;
     }
 
-    public AddGroupPage buttonGroupKey(String str){
-        click(groupKeyButton).backSpace(groupKeyButton);
-        return this;
-    }
+    public AddGroupPage buttonGroupKey(){
+        click(groupKeyButton);
 
-    public AddGroupPage groupKeyTextInput(WebElement element,String str){
-        sendKeys(inputGroupKeyText,str);
-        return this;
+    return this;
     }
 
     public AddGroupPage clickPriceButton(){
@@ -145,8 +145,8 @@ public class AddGroupPage extends Helper {
     public AddGroupPage clickGetAddGroupCoursesButton1(){
         click(getAddGroupCoursesButton1);
         return this;
-    }
 
+    }
     public AddGroupPage clickGetAddGroupCoursesButton3(){
         click(getAddGroupCoursesButton3);
         return this;

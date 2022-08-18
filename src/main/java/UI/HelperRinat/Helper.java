@@ -1,9 +1,13 @@
 package UI.HelperRinat;
 
 import UI.utils.Driver;
+import io.cucumber.java.cs.Ale;
 import org.apache.commons.lang.ObjectUtils;
+import org.checkerframework.checker.units.qual.K;
 import org.junit.jupiter.api.Timeout;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -42,11 +46,10 @@ public class Helper {
         return this;
     }
 
-    public Helper backSpace(WebElement element) {
-        for (int i = 0; i < 10; i++) {
-           element.sendKeys(Keys.BACK_SPACE);
-        }
-        return this;
+    public void simpleAlert(WebElement element, Alert alert){
+        waitElementToBeClickable(element);
+        alert.accept();
+
     }
 
 

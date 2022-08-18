@@ -6,9 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="afca0f5e-9f39-4fa2-b24d-2a7fd063e934" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/API/Users/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/API/Users/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/user.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/user.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UI/HelperRinat/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UI/HelperRinat/Helper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UI/testPage/addGroupTestRinat/AddGroupPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UI/testPage/addGroupTestRinat/AddGroupPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UI/featuresFiles/addGroupRinat.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UI/featuresFiles/addGroupRinat.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UI/stepDefinitions/steps/StepTestGroupRinat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UI/stepDefinitions/steps/StepTestGroupRinat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/RunnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/RunnerClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +41,10 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: в разделе Group надо создать новую группу и обратно удалить">
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+  </component>
+  <component name="RunManager" selected="JUnit.RunnerClass">
     <configuration name="TestCar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="API.practice.TestCar" />
       <module name="obtaincareUI" />
@@ -72,6 +77,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RunnerClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="obtaincareUI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runner" />
+      <option name="MAIN_CLASS_NAME" value="runner.RunnerClass" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Users.testJsonPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="obtaincareUI" />
       <extension name="coverage">
@@ -90,6 +110,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RunnerClass" />
         <item itemvalue="Cucumber Java.Scenario: в разделе Group надо создать новую группу и обратно удалить" />
         <item itemvalue="Application.TestCar" />
         <item itemvalue="JUnit.Users.testJsonPath" />
@@ -117,5 +138,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
