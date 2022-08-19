@@ -1,6 +1,6 @@
-package UI.stepDefinitions.steps;
+package UI.stepDefinitions;
 
-import API.methodsPOM.aidar.UsersMethods;
+
 import UI.dataProviders.ConfigReader;
 import UI.utils.Driver;
 import io.cucumber.java.en.Given;
@@ -28,7 +28,5 @@ public class UserASANStepsDef extends BaseStep {
 
     @Then("Admin test API")
     public void adminTestAPI() {
-        UsersMethods users = new UsersMethods();
-        users.getAllUsers();
     }
 }

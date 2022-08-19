@@ -7,9 +7,9 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/test/java/API/featuresFiles",
-        glue = "src/test/java/API/stepDefinitions",
-        tags = "@SignUp",
-        dryRun = true,
+        glue = "API/stepDefinitions",
+        tags = "@CreateAndDelete",
+        dryRun = false,
         monochrome = true,
         publish = true,
         plugin = {
