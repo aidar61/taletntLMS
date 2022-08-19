@@ -1,7 +1,12 @@
 package DB.beans;
 
+
+import lombok.Data;
+
+@Data
 public class StudentsBean {
-    public static void main(String[] args) {
-        System.out.println("Hello");
-    }
+    private String login;
+    private String first_name;
+    private String last_name;
+    private String email;
 }
