@@ -8,13 +8,6 @@ import org.openqa.selenium.support.PageFactory;
 
 public class HomePageYRYSBEK extends BasePageYRYSBEK {
 
-
-    public HomePageYRYSBEK() {
-        PageFactory.initElements(Driver.getDriver(), this);
-    }
-
-    HelperMethodsYRYSBEK helper = new HelperMethodsYRYSBEK();
-
     @FindBy(xpath = "//div/ul/li[@id='tl-dropdown-goto']")
     public WebElement goToMenu;
 

@@ -5,75 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afca0f5e-9f39-4fa2-b24d-2a7fd063e934" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/API/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/src/main/java/API/apiHelper/aidar/APIHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/src/main/java/API/apiHelper/aidar/SDConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/src/main/java/API/apiHelper/esen/HelperMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/src/main/java/API/dataProviders/MockDataGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/src/main/java/API/dataProviders/URI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/src/main/java/API/methodsPOM/CategoriesMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/src/main/java/API/methodsPOM/aidar/UsersMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/src/main/java/API/pojo/aidar/UsersPOJO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/src/main/resources/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/src/test/java/API/featuresFiles/users/CreateMaxAndDeleteAllUsers.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/src/test/java/API/featuresFiles/users/UserSignUp.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/src/test/java/API/featuresFiles/users/esen/someTest.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/src/test/java/API/runnerAPI/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/src/test/java/API/stepDefinitions/Aidar/CreateAndDeleteStepDefin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/src/test/java/API/stepDefinitions/Aidar/CreatedAndDeletedStepsDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/src/test/java/API/stepDefinitions/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB/src/main/java/DB/beans/StudentsBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB/src/main/java/DB/dataProviders/ConfigReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB/src/main/java/DB/dbHelper/esen/helperMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB/src/main/java/DB/testTOM/testStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB/src/main/resources/configurations.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/src/main/java/UI/pagesPOM/addUserTestAidar/AddUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/src/main/java/UI/pagesPOM/addUserTestAidar/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/API/APIHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/API/Branches/Branches.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/API/methodsPOM/CoursesMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/API/Categories/Categories.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/API/methodsPOM/SystemsMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/API/Courses/Courses.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/API/methodsPOM/BranchesMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/API/Groups/Groups.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/API/methodsPOM/GroupsMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/API/Systems/Systems.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/API/Users/Users.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DB/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/DB/src/main/java/DB/dbHelper/aidar/DBConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DB/beans/CoursesBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/DB/src/main/java/DB/beans/CoursesBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DB/beans/GroupBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/DB/src/main/java/DB/beans/GroupBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DB/beans/StudentsBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DB/methods/DBMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/DB/src/main/java/DB/dbHelper/aidar/DBMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UI/dataProviders/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/java/API/dataProviders/ConfigReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UI/studentsMethods/aidar/Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/UI/src/main/java/UI/studentsMethods/aidar/Methods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UI/studentsMethods/asan/AsanMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/UI/src/main/java/UI/studentsMethods/asan/AsanMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UI/studentsMethods/yrysbek/HelperMethodsYRYSBEK.java" beforeDir="false" afterPath="$PROJECT_DIR$/UI/src/main/java/UI/studentsMethods/yrysbek/HelperMethodsYRYSBEK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UI/testPage/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/UI/src/main/java/UI/pagesPOM/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UI/testPage/addUserTestAidar/AddUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UI/testPage/addUserTestAidar/BasePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UI/testPage/goToNavBarMenuTestYRYSBEK/HomePageYRYSBEK.java" beforeDir="false" afterPath="$PROJECT_DIR$/UI/src/main/java/UI/pagesPOM/goToNavBarMenuTestYRYSBEK/HomePageYRYSBEK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UI/testPage/usersTestAsan/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/UI/src/main/java/UI/pagesPOM/usersTestAsan/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UI/utils/ChromeWebDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/UI/src/main/java/UI/utils/ChromeWebDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UI/utils/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/UI/src/main/java/UI/utils/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UI/utils/EdgeWebDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/UI/src/main/java/UI/utils/EdgeWebDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UI/utils/FireFoxWebDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/UI/src/main/java/UI/utils/FireFoxWebDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UI/utils/SauceLabsDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/UI/src/main/java/UI/utils/SauceLabsDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/UI/src/main/resources/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/user.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/main/resources/user.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BACK/fueaturesFiles/categories/APICATEGORIES1-3.feature" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/test/java/API/featuresFiles/categories/APICATEGORIES1-3.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BACK/fueaturesFiles/courses/APICOURSES1-3.feature" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/test/java/API/featuresFiles/courses/APICOURSES1-3.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BACK/fueaturesFiles/groups/APIGROUPS1-3.feature" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/test/java/API/featuresFiles/groups/APIGROUPS1-3.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BACK/fueaturesFiles/systems/APISYSTEM1-3.feature" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/test/java/API/featuresFiles/systems/APISYSTEM1-3.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BACK/fueaturesFiles/users/APIUSER1-3.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BACK/stepDefinitions/APISTEPS.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UI/featuresFiles/GoToMenuNavBarYRYSBEK.feature" beforeDir="false" afterPath="$PROJECT_DIR$/UI/src/test/java/UI/featuresFiles/GoToMenuNavBarYRYSBEK.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UI/featuresFiles/UserASAN.feature" beforeDir="false" afterPath="$PROJECT_DIR$/UI/src/test/java/UI/featuresFiles/UserASAN.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UI/stepDefinitions/BaseStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/UI/src/test/java/UI/stepDefinitions/BaseStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UI/stepDefinitions/steps/GotoNavBarMenuYRYSBEKStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/UI/src/test/java/UI/stepDefinitions/GotoNavBarMenuYRYSBEKStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UI/stepDefinitions/steps/UserASANStepsDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/UI/src/test/java/UI/stepDefinitions/UserASANStepsDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/RunnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/UI/src/test/java/UI/runnerUI/RunnerClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/src/main/java/UI/pagesPOM/goToNavBarMenuTestYRYSBEK/BasePageYRYSBEK.java" beforeDir="false" afterPath="$PROJECT_DIR$/UI/src/main/java/UI/pagesPOM/goToNavBarMenuTestYRYSBEK/BasePageYRYSBEK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/src/main/java/UI/pagesPOM/goToNavBarMenuTestYRYSBEK/HomePageYRYSBEK.java" beforeDir="false" afterPath="$PROJECT_DIR$/UI/src/main/java/UI/pagesPOM/goToNavBarMenuTestYRYSBEK/HomePageYRYSBEK.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
