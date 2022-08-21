@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="afca0f5e-9f39-4fa2-b24d-2a7fd063e934" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/src/main/java/UI/pagesPOM/goToNavBarMenuTestYRYSBEK/BasePageYRYSBEK.java" beforeDir="false" afterPath="$PROJECT_DIR$/UI/src/main/java/UI/pagesPOM/goToNavBarMenuTestYRYSBEK/BasePageYRYSBEK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/src/main/java/UI/pagesPOM/goToNavBarMenuTestYRYSBEK/HomePageYRYSBEK.java" beforeDir="false" afterPath="$PROJECT_DIR$/UI/src/main/java/UI/pagesPOM/goToNavBarMenuTestYRYSBEK/HomePageYRYSBEK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UI/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -80,6 +80,7 @@
     </dependencies>
 
     <build>
+        <finalName>my-first-UI-maven-docker</finalName>
         <plugins>
 
 
