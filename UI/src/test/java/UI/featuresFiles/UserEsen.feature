@@ -6,6 +6,11 @@ Feature: Events Engine test
   When admin click on add notifications buttons
   Then user input all field
   And user click on Create notification button
+  Then user delete notification
+  Then user click on history button
+  And user click on Pending notifications button
+
+
   
 
 
