@@ -6,10 +6,10 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/java/API/featuresFiles",
-        glue = "src/test/java/API/stepDefinitions",
-        tags = "@SignUp",
-        dryRun = true,
+        features = "/Users/Esen/IdeaProjects/taletntLMS/API/src/test/java/API/featuresFiles/users/esen",
+        glue = "API/stepDefinitions/Esen",
+        tags = "@EsenTudaSuda",
+        dryRun = false,
         monochrome = true,
         publish = true,
         plugin = {

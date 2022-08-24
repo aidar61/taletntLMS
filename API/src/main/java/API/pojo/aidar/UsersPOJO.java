@@ -39,7 +39,7 @@ public class UsersPOJO extends MockDataGenerator {
 
     public static String getUserByValue(String value, String key) {
         return requestWithQueryParams(ConfigReader.getProperty("users"), value, key,
-                ContentType.JSON, ContentType.JSON, Method.GET);
+                 Method.GET);
     }
 
     public String getJSONUsers() {
@@ -76,8 +76,6 @@ public class UsersPOJO extends MockDataGenerator {
                 APIHelper.requestWithBody(
                         URI.CREATEUSER.endpoints
                         , json
-                        , ContentType.JSON
-                        , ContentType.JSON
                         , Method.POST);
 
             }
@@ -90,8 +88,7 @@ public class UsersPOJO extends MockDataGenerator {
             UsersPOJO[] usersPOJOS = SDConverter.deserialize(APIHelper
                     .getJSON(URI.USERS.endpoints, Method.GET), UsersPOJO[].class);
             APIHelper.preRequest(URI.DELETEUSER.endpoints
-                            , ContentType.JSON
-                            , ContentType.JSON)
+                            )
                     .contentType(ConfigReader.getProperty("multipart"))
                     .multiPart("user_id", usersPOJOS[numberOfUser].getId())
                     .request(Method.POST);

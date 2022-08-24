@@ -56,7 +56,7 @@ public class UsersMethods extends MockDataGenerator {
             json = SDConverter.serialize(usersPOJO);
             APIHelper.requestWithBody(URI.CREATEUSER.endpoints
                     , json
-                    , ContentType.JSON, ContentType.JSON
+
                     , Method.POST);
         }
         UsersPOJO[] usersPOJOS = SDConverter
@@ -71,7 +71,7 @@ public class UsersMethods extends MockDataGenerator {
                 .getJSON(URI.USERS.endpoints, Method.GET), UsersPOJO[].class);
         for (int i = 1; i < usersPOJOS.length; i++) {
             System.out.println(APIHelper.preRequest(URI.DELETEUSER.endpoints
-                            , ContentType.JSON, ContentType.JSON)
+                    )
                     .contentType("multipart/form-data")
                     .multiPart("user_id", usersPOJOS[i].getId()).request(Method.POST)
                     .getBody().asPrettyString());
